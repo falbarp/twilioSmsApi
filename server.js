@@ -30,7 +30,7 @@ app.use('/sendSms', (req,res, next) => {
     next()
     });
 
-sendSms("Securing", process.env.myPhone)
+sendSms("Testing", process.env.myPhone)
 
 app.listen(port, ()=> {
     console.log(`Listening at http://localhost:${port}`)

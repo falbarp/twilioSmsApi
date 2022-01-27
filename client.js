@@ -22,8 +22,8 @@ function sendTextMessage (body, to, from=`${process.env.senderPhone}`) {
     else {createSms()}
 }
 
-function sendSms (body, to, from) {
-    axios.post('/sendSms', (req,res, next) => {
+async function sendSms (body, to, from) {
+   await axios.post('/sendSms', (req,res, next) => {
         res.json({
             message: "SMS sent",
         })
