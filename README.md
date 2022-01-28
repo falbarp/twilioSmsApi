@@ -1,4 +1,4 @@
-# Foobar
+# twilioSmsApi
 
 A simple API to send SMS using Twilio
 
@@ -41,10 +41,6 @@ Values
 ```bash
 https://url/SendSms/:your text her /:+3455555555/
 ```
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
