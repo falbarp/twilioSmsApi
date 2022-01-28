@@ -16,8 +16,7 @@ function sendTextMessage (body, to, from=`${process.env.senderPhone}`) {
     }).then(message =>console.log(message))
     .catch(error => console.log(error))}
     
-    const result = Array.isArray(to);
-    
+    const result = Array.isArray(to);    
     if (result) {to.forEach(createSms)}
     else {createSms()}
 }
